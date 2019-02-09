@@ -26,7 +26,11 @@ namespace AdmisionesDbContext.Controllers
         public IActionResult Registrar()
         {
             return View();
+            //esta vista retorna el formulario...
         }
+
+
+
 
     }
 }
