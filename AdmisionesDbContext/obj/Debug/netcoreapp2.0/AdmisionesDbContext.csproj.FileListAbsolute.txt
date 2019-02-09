@@ -1,0 +1,11 @@
+C:\Users\Josue Cayetano\source\repos\AdmisionesDbContext\AdmisionesDbContext\bin\Debug\netcoreapp2.0\AdmisionesDbContext.deps.json
+C:\Users\Josue Cayetano\source\repos\AdmisionesDbContext\AdmisionesDbContext\bin\Debug\netcoreapp2.0\AdmisionesDbContext.runtimeconfig.json
+C:\Users\Josue Cayetano\source\repos\AdmisionesDbContext\AdmisionesDbContext\bin\Debug\netcoreapp2.0\AdmisionesDbContext.runtimeconfig.dev.json
+C:\Users\Josue Cayetano\source\repos\AdmisionesDbContext\AdmisionesDbContext\bin\Debug\netcoreapp2.0\AdmisionesDbContext.dll
+C:\Users\Josue Cayetano\source\repos\AdmisionesDbContext\AdmisionesDbContext\bin\Debug\netcoreapp2.0\AdmisionesDbContext.pdb
+C:\Users\Josue Cayetano\source\repos\AdmisionesDbContext\AdmisionesDbContext\obj\Debug\netcoreapp2.0\AdmisionesDbContext.csprojAssemblyReference.cache
+C:\Users\Josue Cayetano\source\repos\AdmisionesDbContext\AdmisionesDbContext\obj\Debug\netcoreapp2.0\AdmisionesDbContext.csproj.CoreCompileInputs.cache
+C:\Users\Josue Cayetano\source\repos\AdmisionesDbContext\AdmisionesDbContext\obj\Debug\netcoreapp2.0\AdmisionesDbContext.AssemblyInfoInputs.cache
+C:\Users\Josue Cayetano\source\repos\AdmisionesDbContext\AdmisionesDbContext\obj\Debug\netcoreapp2.0\AdmisionesDbContext.AssemblyInfo.cs
+C:\Users\Josue Cayetano\source\repos\AdmisionesDbContext\AdmisionesDbContext\obj\Debug\netcoreapp2.0\AdmisionesDbContext.dll
+C:\Users\Josue Cayetano\source\repos\AdmisionesDbContext\AdmisionesDbContext\obj\Debug\netcoreapp2.0\AdmisionesDbContext.pdb

@@ -1,0 +1,191 @@
+﻿@model IEnumerable<AdmisionesDbContext.Models.SolicitudAdmisiones>
+
+@{
+    ViewData["Title"] = "Solicitudes";
+}
+
+<h2>Solicitudes</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdSolicitud)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Apellido)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Aula)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CentroProcedencia)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Curso)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Direccion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Edad)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EstadoSolicitud)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaNacimiento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaSolicitud)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LugarNacimiento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nivel)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NombreMadre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NombrePadre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PeriodoEscolar)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tanda)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Telefono)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TelefonoPadres)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UrlActaNacimiento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UrlCertificadoMedico)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UrlFoto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UrlRecordNotas)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Usuario)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Sexo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdUsuario)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdSolicitud)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Aula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CentroProcedencia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Curso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Edad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EstadoSolicitud)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaNacimiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaSolicitud)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LugarNacimiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nivel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreMadre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombrePadre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PeriodoEscolar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tanda)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TelefonoPadres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UrlActaNacimiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UrlCertificadoMedico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UrlFoto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UrlRecordNotas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sexo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdUsuario)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
